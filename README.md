@@ -333,4 +333,15 @@ See [Security Policy](SECURITY.md), [Installation and Download Security Guidance
 
 See [Quick Start](docs/QUICKSTART_zh.md) and [Community Issue Triage](docs/COMMUNITY-ISSUE-TRIAGE.md) for installation, client integration, and how community issues are classified. Installation/archive security details remain in [Installation and Download Security Guidance](docs/UV-AND-DOWNLOAD-SECURITY.md).
 
-1
+ 分享一个怎么绕过 Codex 反编译、逆向道德感的操作
+
+其实也比较容易实现的，你就不要在 prompt 里提什么逆向以及提什么反编译之类的  你就把这个库安装下来后
+github.com/zhaoxuya520/re… 
+
+就直接跟他说按照这个markdown 去处理某个应用即可github.com/zhaoxuya520/re… 
+
+要注意的是，不要让 Codex 或者 Claude 去从 0 开始安装上面的 skills，会拒绝 
+
+你要自己装，当然你可以 clone 以后，其中一些安装步骤让它来执行
+
+以上我主要在 Codex 验证，Claude 没有做验证，你们可以试试，可以说 Codex 屡试不爽
